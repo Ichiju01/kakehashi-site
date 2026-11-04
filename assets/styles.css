@@ -25,6 +25,9 @@
 html { -webkit-text-size-adjust: 100%; scroll-padding-top: 96px; }
 body { margin: 0; background: var(--bg); color: var(--body); font: 400 1.0625rem/1.7 var(--sans); -webkit-font-smoothing: antialiased; }
 html[lang="ja"] body, [lang="ja"]:not(html) { font-family: var(--jp-sans); }
+/* Japanese line breaking: never start a line with ー or small kana, and break headings at natural phrase boundaries. */
+[lang="ja"] { line-break: strict; }
+[lang="ja"] :is(h1, h2, h3) { word-break: auto-phrase; }
 img { max-width: 100%; display: block; }
 a { color: var(--navy); text-underline-offset: 3px; text-decoration-thickness: 1px; }
 a:hover { color: var(--gold); }
