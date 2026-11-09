@@ -11,6 +11,8 @@ export const SITE = {
   location: "Sydney",
 
   email: "support@kakehashi.au",
+  // LinkedIn company page (the business page only, never a personal profile). Shown in the footer and in the site's schema (sameAs).
+  linkedinUrl: "https://www.linkedin.com/company/144116259/",
 
   // Form endpoint (e.g. Formspree). Every form posts here with a "source" tag:
   // client, partner, japanese-buyer, contact.

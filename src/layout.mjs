@@ -71,6 +71,7 @@ const header = (active) => `<a class="skip" href="#main">Skip to content</a>
 
 export const contactLines = () => `<ul class="contact-lines">
   <li>${icon("mail")} ${SITE.email ? `<a href="mailto:${esc(SITE.email)}">${esc(SITE.email)}</a>` : ph("Email")}</li>
+  ${SITE.linkedinUrl ? `<li>${icon("linkedin")} <a href="${esc(SITE.linkedinUrl)}" rel="noopener" target="_blank">Kakehashi on LinkedIn</a></li>` : ""}
 </ul>`;
 
 const footer = () => `<footer class="site-footer">
@@ -111,6 +112,7 @@ const orgSchema = () => ({
   knowsAbout: ["Exporting to Japan from Australia", "Japan market entry", "Japanese importers and distributors", "Japanese business culture", "Food, wine, seafood, health and beauty, and lifestyle exports to Japan"],
   ...(SITE.email ? { email: SITE.email } : {}),
   knowsLanguage: ["en", "ja"],
+  ...(SITE.linkedinUrl ? { sameAs: [SITE.linkedinUrl] } : {}),
 });
 
 export const faqSchema = (faqs) => ({
