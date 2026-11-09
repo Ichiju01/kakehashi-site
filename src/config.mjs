@@ -20,6 +20,8 @@ export const SITE = {
   bookingUrl: "",
   // Google Analytics 4 measurement ID (G-XXXXXXX). When set, a cookie consent banner appears and GA loads only after consent.
   ga4Id: "",
+  // IndexNow key (https://www.indexnow.org). Published at /<key>.txt; GitHub Actions pings Bing and others with every page after each deploy.
+  indexNowKey: "cd3ac1dda391d986a4ef99cd780938c7",
 };
 
 // Visible placeholder for anything the owner still has to supply.

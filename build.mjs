@@ -63,6 +63,7 @@ await writeFile(join(out, "404.html"), notFound());
 await cp(join(root, "assets"), join(out, "assets"), { recursive: true });
 
 const today = new Date().toISOString().slice(0, 10);
+const articleMod = Object.fromEntries(ARTICLES.map((a) => [`/insights/${a.slug}/`, a.updated || a.date || today]));
 // The English home page and /ja/ are language alternates of each other.
 const langPair = (p) =>
   p === "/" || p === "/ja/"
@@ -71,7 +72,7 @@ const langPair = (p) =>
 await writeFile(
   join(out, "sitemap.xml"),
   `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">\n${Object.keys(pages)
-    .map((p) => `  <url><loc>${SITE.url}${p}</loc><lastmod>${today}</lastmod>${langPair(p)}</url>`)
+    .map((p) => `  <url><loc>${SITE.url}${p}</loc><lastmod>${articleMod[p] || today}</lastmod>${langPair(p)}</url>`)
     .join("\n")}\n</urlset>\n`
 );
 
@@ -127,5 +128,11 @@ ${link("/privacy/", "Privacy Policy")}
 ${DISCLAIMER(SITE.name)}
 `;
 await writeFile(join(out, "llms.txt"), llms);
+
+// IndexNow: the key file proves we own the site; .github/workflows/deploy.yml submits urls.txt after each deploy.
+if (SITE.indexNowKey) {
+  await writeFile(join(out, `${SITE.indexNowKey}.txt`), SITE.indexNowKey);
+  await writeFile(join(out, "urls.txt"), Object.keys(pages).map((p) => `${SITE.url}${p}`).join("\n") + "\n");
+}
 
 console.log(`Built ${Object.keys(pages).length + 1} pages into ./public`);

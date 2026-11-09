@@ -33,3 +33,13 @@ jobs:
           path: public
       - id: deployment
         uses: actions/deploy-pages@v4
+      # Tell Bing (and other IndexNow search engines) about every page. A failure here never fails the deploy.
+      - name: Notify search engines (IndexNow)
+        continue-on-error: true
+        run: |
+          KEY=$(node -e 'import("./src/config.mjs").then(m=>console.log(m.SITE.indexNowKey||""))')
+          [ -n "$KEY" ] || exit 0
+          URLS=$(jq -R . public/urls.txt | jq -sc .)
+          curl -sS -o /dev/null -w "IndexNow: %{http_code}\n" -X POST https://api.indexnow.org/indexnow \
+            -H "Content-Type: application/json; charset=utf-8" \
+            -d "{\"host\":\"kakehashi.au\",\"key\":\"$KEY\",\"keyLocation\":\"https://kakehashi.au/$KEY.txt\",\"urlList\":$URLS}"
