@@ -22,7 +22,7 @@ ${pageHero({
     <div class="reveal">
       <p class="eyebrow">The model</p>
       <h2>You sell to Japanese buyers. We make it happen.</h2>
-      <p class="lede">Japanese buyers purchase directly from you. We do not buy or resell products; we represent and support you.</p>
+      <p class="lede">We find the right Japanese buyers for your product, handle the relationship in Japanese and support you at every step.</p>
       <p>In most categories a Japanese importer brings your product in. We find the right one, or a retailer or distributor that imports directly.</p>
     </div>
     <div class="reveal">${flow()}</div>

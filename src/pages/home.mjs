@@ -19,7 +19,7 @@ const body = `
     <div class="hero-flow">
       <p class="flow-title">How your product reaches Japan</p>
       ${flow()}
-      <p class="flow-foot">Japanese buyers purchase directly from you. We represent and support you; we never buy or resell your products.</p>
+      <p class="flow-foot">We find the right buyers, handle everything in Japanese and stay on as your Japan team.</p>
     </div>
   </div>
 </section>

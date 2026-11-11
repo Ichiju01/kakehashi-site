@@ -17,7 +17,7 @@ export const workingCard = () => `<div class="work-card">
 </div>`;
 
 const POINTS = [
-  ["language", "Australian-born, with native Japanese backgrounds"],
+  ["language", "A group of Australians with native Japanese backgrounds"],
   ["users", "Fluent in English and Japanese"],
   ["handshake", "Strong personal and professional ties to both countries"],
   ["growth", "Over a decade of enterprise sales across Asia-Pacific"],
@@ -57,7 +57,7 @@ ${pageHero({
       <h2>On your side of the table.</h2>
     </div>
     <div class="tiles three">
-      <article class="tile reveal"><span class="tile-ic">${icon("handshake")}</span><h3>Buyers purchase from you</h3><p>Japanese buyers purchase directly from you. We do not buy or resell products. We represent you and support you.</p></article>
+      <article class="tile reveal"><span class="tile-ic">${icon("handshake")}</span><h3>The right buyers</h3><p>We look for the importers, distributors, retailers and restaurant groups that genuinely suit your product, and introduce you properly.</p></article>
       <article class="tile reveal"><span class="tile-ic">${icon("language")}</span><h3>Japanese, handled</h3><p>We communicate with buyers in Japanese and keep you informed in English, so you do not need your own Japanese-speaking team.</p></article>
       <article class="tile reveal"><span class="tile-ic">${icon("route")}</span><h3>We stay the course</h3><p>We go beyond research and introductions. We follow up, negotiate and stay on until the business is working.</p></article>
     </div>
@@ -73,6 +73,6 @@ export default () =>
     active: "/about/",
     title: "About us: a bilingual Australia and Japan team",
     crumb: "About",
-    description: `${SITE.name} is a Sydney-based team of Australian-born, Japanese-native professionals helping Australian producers enter the Japanese market.`,
+    description: `${SITE.name} is a Sydney-based group of Australians with native Japanese backgrounds, helping Australian producers enter the Japanese market.`,
     body,
   });

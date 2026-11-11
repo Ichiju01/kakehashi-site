@@ -106,7 +106,7 @@ const orgSchema = () => ({
   url: SITE.url,
   logo: `${SITE.url}/assets/logo.png`,
   image: `${SITE.url}/assets/og-image.png`,
-  description: "Bilingual Japan market entry and sales support for Australian producers. Kakehashi.au finds the right Japanese buyers, handles the relationship in Japanese and stays on as the client's Japan team. It does not buy or resell products.",
+  description: "Bilingual Japan market entry and sales support for Australian producers. Kakehashi.au finds the right Japanese buyers, handles the relationship in Japanese and stays on as the client's Japan team.",
   slogan: SITE.jpTagline,
   areaServed: [{ "@type": "Country", name: "Australia" }, { "@type": "Country", name: "Japan" }],
   knowsAbout: ["Exporting to Japan from Australia", "Japan market entry", "Japanese importers and distributors", "Japanese business culture", "Food, wine, seafood, health and beauty, and lifestyle exports to Japan"],

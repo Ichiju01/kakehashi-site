@@ -88,10 +88,10 @@ const strip = (h) => h.replace(/<[^>]+>/g, "").replace(/&amp;/g, "&");
 const link = (p, name, note) => `- [${name}](${SITE.url}${p})${note ? `: ${note}` : ""}`;
 const llms = `# ${SITE.name}
 
-> ${SITE.name} (架け橋, "bridge") is a Sydney-based, bilingual Japan market entry and sales service for Australian producers. We find the right Japanese buyers (importers, distributors, retailers and restaurant groups), handle the relationship in Japanese, and stay on as the client's Japan team. Japanese buyers purchase directly from our clients; we do not buy, import or resell products.
+> ${SITE.name} (架け橋, "bridge") is a Sydney-based, bilingual Japan market entry and sales service for Australian producers. We find the right Japanese buyers (importers, distributors, retailers and restaurant groups), handle the relationship in Japanese, and stay on as the client's Japan team.
 
 - Who we help: Australian food, beverage, seafood, health, beauty and lifestyle producers.
-- Team: Australian-born, with native Japanese backgrounds; fluent in English and Japanese; in Japan regularly.
+- Team: a group of Australians with native Japanese backgrounds; fluent in English and Japanese; in Japan regularly.
 - Fit: ${CLIENT_FIT}
 
 ## How it works

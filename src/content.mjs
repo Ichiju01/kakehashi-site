@@ -26,7 +26,7 @@ export const CHALLENGES = [
 
 // APPROVED: Home "Why work with us"
 export const WHY = [
-  "Australian-born, with native Japanese backgrounds.",
+  "A group of Australians with native Japanese backgrounds.",
   "Fluent in English and Japanese, and at home in both business cultures.",
   "Over a decade of enterprise sales across Asia-Pacific.",
   "On the ground in Japan regularly.",
@@ -176,7 +176,6 @@ export const SECTORS = [
 
 // APPROVED: FAQ (shown on Services and Contact)
 export const FAQS = [
-  ["Do you buy or import our products?", "No. Japanese buyers purchase directly from you. We find and win those buyers, manage the relationship and support you throughout."],
   ["Do I need a Japanese importer?", "In most categories, yes. Someone in Japan has to bring your product in and handle the import requirements. That might be a specialist importer, a distributor, or a retailer or restaurant group that imports directly. We find the right one for your product."],
   ["How do you charge?", "Every engagement is tailored to your product and goals. After a free call we will send a clear written proposal."],
   ["How long does it take to get into Japan?", "It varies by product, but building a Japanese channel usually takes 6 to 18 months. Japanese buyers value preparation and long-term commitment."],
@@ -193,7 +192,6 @@ export const FAQ_GROUPS = [
     id: "working-with-us",
     title: "Working with us",
     items: [
-      faq("Do you buy or import our products?"),
       ["Who do you work with?", `Australian food, beverage, seafood, health, beauty and lifestyle producers. We look for ${CLIENT_FIT.charAt(0).toLowerCase() + CLIENT_FIT.slice(1)}`],
       ["What happens on the free call?", "It is a 20-minute video call, on Sydney time, to understand your product and goals. If Japan makes sense, we explain how we would approach it and what the next step looks like."],
       faq("Do I need to speak Japanese?"),
