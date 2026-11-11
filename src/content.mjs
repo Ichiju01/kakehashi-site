@@ -226,7 +226,7 @@ export const INSIGHT_CATEGORIES = ["Market entry", "Sectors", "Culture and etiqu
 
 // APPROVED disclaimer: under the grants FAQ and on /disclaimer/
 // Function declaration so it is hoisted: FAQS uses it above.
-export function DISCLAIMER(name = "Kakehashi") {
+export function DISCLAIMER(name = "Kakehashi.au") {
   return `Information on this website is general in nature and is not legal, tax, financial or grant advice. ${name} is not affiliated with or endorsed by Austrade or any government agency.`;
 }
 

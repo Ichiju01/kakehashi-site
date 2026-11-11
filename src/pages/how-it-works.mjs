@@ -48,6 +48,6 @@ export default () =>
     active: "/how-it-works/",
     title: "How to sell Australian products in Japan",
     crumb: "How it works",
-    description: "How Kakehashi helps Australian producers enter the Japanese market: check your fit, prepare in Japanese, win Japanese buyers and grow in Japan.",
+    description: "How Kakehashi.au helps Australian producers enter the Japanese market: check your fit, prepare in Japanese, win Japanese buyers and grow in Japan.",
     body,
   });

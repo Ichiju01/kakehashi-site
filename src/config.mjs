@@ -1,7 +1,7 @@
 // Site-wide settings. Fill in the empty values and rebuild (node build.mjs): every page picks them up.
 // Anything left empty shows on the site as a clearly marked "[owner to supply]" placeholder.
 export const SITE = {
-  name: "Kakehashi",
+  name: "Kakehashi.au",
   // Shown under the logo and in page titles
   descriptor: "Japan Market Entry & Sales",
   // Small Japanese tagline (approved copy)

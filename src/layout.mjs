@@ -71,7 +71,7 @@ const header = (active) => `<a class="skip" href="#main">Skip to content</a>
 
 export const contactLines = () => `<ul class="contact-lines">
   <li>${icon("mail")} ${SITE.email ? `<a href="mailto:${esc(SITE.email)}">${esc(SITE.email)}</a>` : ph("Email")}</li>
-  ${SITE.linkedinUrl ? `<li>${icon("linkedin")} <a href="${esc(SITE.linkedinUrl)}" rel="noopener" target="_blank">Kakehashi on LinkedIn</a></li>` : ""}
+  ${SITE.linkedinUrl ? `<li>${icon("linkedin")} <a href="${esc(SITE.linkedinUrl)}" rel="noopener" target="_blank">Kakehashi.au on LinkedIn</a></li>` : ""}
 </ul>`;
 
 const footer = () => `<footer class="site-footer">
@@ -102,11 +102,11 @@ const orgSchema = () => ({
   "@type": "ProfessionalService",
   "@id": ORG_ID,
   name: SITE.name,
-  alternateName: "架け橋",
+  alternateName: ["Kakehashi", "架け橋"],
   url: SITE.url,
   logo: `${SITE.url}/assets/logo.png`,
   image: `${SITE.url}/assets/og-image.png`,
-  description: "Bilingual Japan market entry and sales support for Australian producers. Kakehashi finds the right Japanese buyers, handles the relationship in Japanese and stays on as the client's Japan team. It does not buy or resell products.",
+  description: "Bilingual Japan market entry and sales support for Australian producers. Kakehashi.au finds the right Japanese buyers, handles the relationship in Japanese and stays on as the client's Japan team. It does not buy or resell products.",
   slogan: SITE.jpTagline,
   areaServed: [{ "@type": "Country", name: "Australia" }, { "@type": "Country", name: "Japan" }],
   knowsAbout: ["Exporting to Japan from Australia", "Japan market entry", "Japanese importers and distributors", "Japanese business culture", "Food, wine, seafood, health and beauty, and lifestyle exports to Japan"],

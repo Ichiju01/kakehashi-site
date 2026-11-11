@@ -100,7 +100,7 @@ export default () =>
     path: "/contact/",
     active: "/contact/",
     title: "Contact and book a free call",
-    description: "Book a free 20-minute call with Kakehashi to talk about exporting your product to Japan, or send us a message.",
+    description: "Book a free 20-minute call with Kakehashi.au to talk about exporting your product to Japan, or send us a message.",
     body,
     scripts: ["/assets/forms.js"],
   });

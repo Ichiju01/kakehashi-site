@@ -49,7 +49,7 @@ export default () =>
     active: "/partners/",
     title: "Partners: advisers and industry bodies",
     crumb: "Partners",
-    description: "Kakehashi works with business advisers, accountants and industry bodies to support Australian businesses entering the Japanese market.",
+    description: "Kakehashi.au works with business advisers, accountants and industry bodies to support Australian businesses entering the Japanese market.",
     body,
     scripts: ["/assets/forms.js"],
   });
