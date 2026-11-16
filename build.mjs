@@ -59,6 +59,15 @@ for (const [path, html] of Object.entries(pages)) {
   await mkdir(dirname(file), { recursive: true });
   await writeFile(file, html);
 }
+// Retired URLs forward to their replacement (GitHub Pages has no server redirects).
+const REDIRECTS = {
+  "/insights/sending-samples-to-japanese-buyers/": "/insights/how-to-export-to-japan-from-australia/",
+};
+for (const [from, to] of Object.entries(REDIRECTS)) {
+  const file = join(out, from, "index.html");
+  await mkdir(dirname(file), { recursive: true });
+  await writeFile(file, `<!doctype html><html lang="en-AU"><head><meta charset="utf-8"><title>Moved</title><meta name="robots" content="noindex"><link rel="canonical" href="${SITE.url}${to}"><meta http-equiv="refresh" content="0; url=${to}"></head><body><p>This page has moved to <a href="${to}">${SITE.url}${to}</a>.</p></body></html>`);
+}
 await writeFile(join(out, "404.html"), notFound());
 await cp(join(root, "assets"), join(out, "assets"), { recursive: true });
 
