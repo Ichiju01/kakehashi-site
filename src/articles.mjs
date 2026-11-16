@@ -5,6 +5,84 @@ export const PUBLISHED = "2026-11-02"; // default date; newer articles set their
 
 export const ARTICLES = [
   {
+    slug: "sending-samples-to-japanese-buyers",
+    cat: "Market entry",
+    date: "2026-11-16",
+    title: "Sending samples to Japanese buyers: how to make them count",
+    seoTitle: "Sending product samples to Japanese buyers",
+    description: "How Australian producers should send samples to Japanese buyers: when to send, what to include, shipping and import checks, and how to follow up.",
+    excerpt: "In Japan, the sample is often the real first meeting. Here is how to prepare, pack and follow up so your product gets a fair hearing.",
+    mins: 7,
+    faqs: [
+      ["Should I send samples to a Japanese buyer before they ask?", "Usually not. Unrequested samples often go unopened. Make contact first, confirm the buyer is interested, then ask who should receive the samples and how many they need."],
+      ["How many samples should I send to a Japanese buyer?", "Ask. Decisions in Japan are usually made by a group, so a buyer may need enough for several people to taste or try, and sometimes a second round later. Sending too few can slow things down."],
+      ["Do food samples need to clear import checks in Japan?", "They can. Food, drink, cosmetics and animal products may be subject to import procedures even in small quantities and even when they are not for sale. Requirements depend on the product, so check with your courier and your Japanese contact before you send."],
+      ["How long should I wait before following up on samples?", "Confirm delivery as soon as the parcel arrives, then allow two to three weeks for the buyer to review the samples internally before asking for feedback. A polite, specific follow-up is expected, not pushy."],
+    ],
+    body: `
+<p>Once a Japanese buyer shows interest, the next request is almost always the same: "Could you send samples?" It sounds simple, but for many Australian producers this is where good leads quietly go cold. The parcel is held up, arrives with the wrong paperwork, or lands on a desk with nothing to explain it. This guide covers how to make your samples work as hard as your first meeting.</p>
+
+<h2>Why samples matter so much in Japan</h2>
+<p>Japanese buying decisions are usually made by a group, not one person. The buyer you spoke to will often share your samples with colleagues in purchasing, quality control and sales, and sometimes with a customer such as a retailer or restaurant. Your sample has to speak for you in meetings you will never attend.</p>
+<p>That means the product, the packaging and the information that comes with it all need to be clear without you in the room.</p>
+
+<h2>Wait to be asked, then ask questions back</h2>
+<p>Unrequested samples are rarely welcome. Make contact first, and send samples once a buyer has said they would like to see the product. Before you ship, ask:</p>
+<ul>
+<li>who should receive the parcel, with their full name, department and address in Japanese;</li>
+<li>how many units they need, as several people may want to taste or test;</li>
+<li>which products or variants they are most interested in;</li>
+<li>whether there are any import or courier requirements they have seen with other overseas suppliers.</li>
+</ul>
+<p>Asking these questions shows care, and saves you from sending the wrong thing.</p>
+
+<h2>Check import and courier rules before you ship</h2>
+<p>Samples are still goods crossing a border. Food, drink, cosmetics and animal products can be subject to import procedures in Japan even in small quantities and even when they are not for sale. Meat, dairy and some other animal products face strict animal health rules and often cannot be sent as simple samples.</p>
+<p>Couriers also have their own restrictions, particularly for alcohol, liquids, perishable food and anything that needs to stay chilled. Rules change and depend on the product, so:</p>
+<ul>
+<li>check current requirements with your courier or freight forwarder before you book;</li>
+<li>describe the contents accurately on the shipping documents, and mark them as commercial samples;</li>
+<li>ask your Japanese contact whether anything needs to be arranged at their end;</li>
+<li>allow extra time for checks, rather than promising a delivery date you cannot control.</li>
+</ul>
+<p>A sample that is held at the border, or that arrives late and warm, can do more harm than no sample at all.</p>
+
+<h2>Pack for the people who will open it</h2>
+<p>Think about the person opening the box, then about everyone they will pass it to.</p>
+<ul>
+<li><strong>Send your retail packaging,</strong> not plain test packs, unless the buyer has asked otherwise. Presentation is part of what they are assessing.</li>
+<li><strong>Protect it well.</strong> Damaged or leaking samples reflect on your quality control.</li>
+<li><strong>Check the dates.</strong> Send stock with plenty of shelf life remaining. Near-dated samples raise questions about how fresh your product will be after shipping.</li>
+<li><strong>Label each item clearly,</strong> so samples can be told apart once they are separated.</li>
+</ul>
+
+<h2>Include a short information pack</h2>
+<p>Put a short pack in the box, and email the same information separately so it can be forwarded. Ideally it is in Japanese, or at least easy to translate. Include:</p>
+<ul>
+<li>a one-page product sheet for each item, with ingredients, pack sizes, shelf life and storage conditions;</li>
+<li>a brief introduction to your business and where the product is made;</li>
+<li>any certifications you hold that are relevant to the buyer;</li>
+<li>suggested uses, serving ideas or the type of customer the product suits;</li>
+<li>clear contact details, and the name of the person who will follow up.</li>
+</ul>
+<p>Our guide to <a href="/insights/what-japanese-importers-look-for/">what Japanese importers look for</a> covers the questions this information should answer.</p>
+
+<h2>Follow up properly</h2>
+<p>Sending the parcel is not the end of the job. Once it is delivered:</p>
+<ul>
+<li>email to confirm it has arrived safely and offer to answer any questions;</li>
+<li>allow two to three weeks for the samples to be reviewed internally;</li>
+<li>then follow up politely, asking for feedback on taste, quality, packaging and price position;</li>
+<li>be ready to send a second round, or a different variant, if they ask.</li>
+</ul>
+<p>Feedback can be indirect. A comment such as "it may be a little difficult for our customers" is worth exploring gently, rather than taking as a final answer. Our guide on <a href="/insights/why-introductions-are-not-orders/">why introductions are not orders</a> explains how this follow-up builds trust over time.</p>
+
+<h2>Keep a record</h2>
+<p>Note what you sent, to whom, when it arrived and what feedback came back. If you are speaking with several Japanese buyers, this record shows which products and messages are landing, and stops anyone being forgotten.</p>
+
+<p>Preparing samples, information packs and follow-up in Japanese is part of how we support our clients. If a Japanese buyer has asked for samples, or you are preparing to approach buyers, <a href="/contact/">book a free call</a>.</p>`,
+  },
+  {
     slug: "find-a-japanese-importer-or-distributor",
     cat: "Market entry",
     date: "2026-11-09",
