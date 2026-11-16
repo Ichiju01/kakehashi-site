@@ -5,82 +5,83 @@ export const PUBLISHED = "2026-11-02"; // default date; newer articles set their
 
 export const ARTICLES = [
   {
-    slug: "sending-samples-to-japanese-buyers",
+    slug: "how-to-export-to-japan-from-australia",
     cat: "Market entry",
-    date: "2026-11-16",
-    title: "Sending samples to Japanese buyers: how to make them count",
-    seoTitle: "Sending product samples to Japanese buyers",
-    description: "How Australian producers should send samples to Japanese buyers: when to send, what to include, shipping and import checks, and how to follow up.",
-    excerpt: "In Japan, the sample is often the real first meeting. Here is how to prepare, pack and follow up so your product gets a fair hearing.",
-    mins: 7,
+    date: "2026-11-17",
+    title: "How to export to Japan from Australia: a complete guide",
+    seoTitle: "How to export to Japan from Australia",
+    description: "A complete guide for Australian businesses exporting to Japan: checking demand, Australian and Japanese rules by product type, finding a Japanese buyer, pricing, samples and the first order.",
+    excerpt: "Whatever you make, the path into Japan follows the same broad steps. This guide walks through each one, with the rules that differ by product type.",
+    mins: 10,
     faqs: [
-      ["Should I send samples to a Japanese buyer before they ask?", "Usually not. Unrequested samples often go unopened. Make contact first, confirm the buyer is interested, then ask who should receive the samples and how many they need."],
-      ["How many samples should I send to a Japanese buyer?", "Ask. Decisions in Japan are usually made by a group, so a buyer may need enough for several people to taste or try, and sometimes a second round later. Sending too few can slow things down."],
-      ["Do food samples need to clear import checks in Japan?", "They can. Food, drink, cosmetics and animal products may be subject to import procedures even in small quantities and even when they are not for sale. Requirements depend on the product, so check with your courier and your Japanese contact before you send."],
-      ["How long should I wait before following up on samples?", "Confirm delivery as soon as the parcel arrives, then allow two to three weeks for the buyer to review the samples internally before asking for feedback. A polite, specific follow-up is expected, not pushy."],
+      ["How do I start exporting to Japan from Australia?", "Start by checking that Japan suits your product: where similar products are sold, what they cost and why a Japanese buyer would choose yours. Then check the Australian and Japanese rules for your product type, prepare detailed product information and approach well-matched Japanese buyers."],
+      ["Do I need a Japanese company to import my product?", "In most cases, yes. Food, drink, cosmetics and many other products need a company in Japan that takes responsibility for them as importer. That might be a specialist importer, a distributor, or a retailer or restaurant group that imports directly."],
+      ["Do I need an export permit to export to Japan?", "It depends on the product. Prescribed goods such as meat, dairy, seafood, eggs and some plant products usually need a registered establishment, an export permit and a certificate. Many other goods need no permit, but an export declaration is generally required for shipments above a set value."],
+      ["How long does it take to start exporting to Japan?", "It varies by product and preparation. Finding the right buyer and agreeing a first order often takes several months, and building a regular channel commonly takes 6 to 18 months."],
+      ["Are there tariffs on Australian products in Japan?", "Under the Japan-Australia Economic Partnership Agreement (JAEPA), Japan has reduced or removed tariffs on many Australian products. Rates vary by product, so check the current rate for yours and what proof of Australian origin your buyer needs."],
     ],
     body: `
-<p>Once a Japanese buyer shows interest, the next request is almost always the same: "Could you send samples?" It sounds simple, but for many Australian producers this is where good leads quietly go cold. The parcel is held up, arrives with the wrong paperwork, or lands on a desk with nothing to explain it. This guide covers how to make your samples work as hard as your first meeting.</p>
+<p>Japan is one of Australia's largest and most established trading partners. Japanese consumers value quality, safety and provenance, and Australian products have a strong reputation for all three. But Japan rewards preparation. Buyers expect detail, decisions take time, and the rules depend on what you sell.</p>
+<p>This guide covers the steps most Australian businesses go through to export to Japan, whatever the product. It is general information, so always check the current requirements for your product.</p>
 
-<h2>Why samples matter so much in Japan</h2>
-<p>Japanese buying decisions are usually made by a group, not one person. The buyer you spoke to will often share your samples with colleagues in purchasing, quality control and sales, and sometimes with a customer such as a retailer or restaurant. Your sample has to speak for you in meetings you will never attend.</p>
-<p>That means the product, the packaging and the information that comes with it all need to be clear without you in the room.</p>
-
-<h2>Wait to be asked, then ask questions back</h2>
-<p>Unrequested samples are rarely welcome. Make contact first, and send samples once a buyer has said they would like to see the product. Before you ship, ask:</p>
+<h2>1. Check that Japan suits your product</h2>
+<p>Before you spend money, check whether there is a place for your product in Japan.</p>
 <ul>
-<li>who should receive the parcel, with their full name, department and address in Japanese;</li>
-<li>how many units they need, as several people may want to taste or test;</li>
-<li>which products or variants they are most interested in;</li>
-<li>whether there are any import or courier requirements they have seen with other overseas suppliers.</li>
+<li><strong>Demand:</strong> is your category already sold in Japan, and where? Look at department stores, supermarkets, specialty shops, restaurants and Japanese online retailers.</li>
+<li><strong>Competition:</strong> what similar products are on sale, where are they from, and how are they presented?</li>
+<li><strong>Your edge:</strong> can you explain in one sentence why a Japanese buyer would choose your product over what they already stock?</li>
+<li><strong>Your capacity:</strong> could you supply consistent volumes, and commit time to Japan over the next 6 to 18 months?</li>
 </ul>
-<p>Asking these questions shows care, and saves you from sending the wrong thing.</p>
+<p>Our <a href="/japan-fit/">Japan fit check</a> gives you a quick first read in about two minutes.</p>
 
-<h2>Check import and courier rules before you ship</h2>
-<p>Samples are still goods crossing a border. Food, drink, cosmetics and animal products can be subject to import procedures in Japan even in small quantities and even when they are not for sale. Meat, dairy and some other animal products face strict animal health rules and often cannot be sent as simple samples.</p>
-<p>Couriers also have their own restrictions, particularly for alcohol, liquids, perishable food and anything that needs to stay chilled. Rules change and depend on the product, so:</p>
+<h2>2. Check the Australian export rules</h2>
+<p>What you need on the Australian side depends on the product.</p>
 <ul>
-<li>check current requirements with your courier or freight forwarder before you book;</li>
-<li>describe the contents accurately on the shipping documents, and mark them as commercial samples;</li>
-<li>ask your Japanese contact whether anything needs to be arranged at their end;</li>
-<li>allow extra time for checks, rather than promising a delivery date you cannot control.</li>
+<li><strong>Prescribed goods,</strong> such as meat, dairy, seafood, eggs and some plant products, are regulated by the Department of Agriculture, Fisheries and Forestry. Your establishment may need to be registered for export, and each shipment may need an export permit and a certificate. The department's Manual of Importing Country Requirements (MICoR) lists the requirements for each product and destination.</li>
+<li><strong>Most other goods,</strong> such as packaged foods that are not prescribed, wine, cosmetics, clothing and homewares, need far less on the Australian side. Wine exporters have their own export licensing and approval requirements through Wine Australia.</li>
+<li><strong>An export declaration</strong> is generally required for shipments above a set value. Your freight forwarder or customs broker usually lodges it for you.</li>
 </ul>
-<p>A sample that is held at the border, or that arrives late and warm, can do more harm than no sample at all.</p>
+<p>Requirements change, so check them each time you plan a new product or shipment.</p>
 
-<h2>Pack for the people who will open it</h2>
-<p>Think about the person opening the box, then about everyone they will pass it to.</p>
+<h2>3. Check the Japanese rules for your product</h2>
+<p>Japan regulates imports by product type. Your Japanese importer handles the import process, but relies on accurate, detailed information from you. In broad terms:</p>
 <ul>
-<li><strong>Send your retail packaging,</strong> not plain test packs, unless the buyer has asked otherwise. Presentation is part of what they are assessing.</li>
-<li><strong>Protect it well.</strong> Damaged or leaking samples reflect on your quality control.</li>
-<li><strong>Check the dates.</strong> Send stock with plenty of shelf life remaining. Near-dated samples raise questions about how fresh your product will be after shipping.</li>
-<li><strong>Label each item clearly,</strong> so samples can be told apart once they are separated.</li>
+<li><strong>Food and drink:</strong> every ingredient and additive must be permitted in Japan, residues must be within Japanese limits, and the importer files an import notification for each shipment. Some additives allowed in Australia are not allowed in Japan, which is a common reason products need adjusting. See our <a href="/insights/export-food-from-australia-to-japan/">step-by-step guide to exporting food to Japan</a>.</li>
+<li><strong>Wine, spirits and beer:</strong> the importer needs a licence to sell alcohol, and the label must meet liquor rules as well as food rules. See our guide to <a href="/insights/selling-australian-wine-in-japan/">selling Australian wine in Japan</a>.</li>
+<li><strong>Seafood, meat and dairy:</strong> as well as food rules, these face animal health and quarantine requirements, and some products are only allowed from approved establishments.</li>
+<li><strong>Skincare and cosmetics:</strong> cosmetics are regulated under Japan's pharmaceutical and medical device law. The importer must hold the right licence, ingredients must be permitted, and claims are tightly limited. See our guide to <a href="/insights/selling-australian-skincare-in-japan/">selling Australian skincare in Japan</a>.</li>
+<li><strong>Fashion and lifestyle:</strong> generally fewer barriers, but clothing and many household goods need Japanese quality labels, such as fibre content and care instructions.</li>
 </ul>
 
-<h2>Include a short information pack</h2>
-<p>Put a short pack in the box, and email the same information separately so it can be forwarded. Ideally it is in Japanese, or at least easy to translate. Include:</p>
+<h2>4. Plan for Japanese labels and packaging</h2>
+<p>Most products sold in Japan need a Japanese label. For food and drink this covers ingredients, additives, allergens, dates, storage, origin and the importer's details. In most cases you keep your English packaging and the importer applies a Japanese sticker label, so leave a clear space for it. Our guide to <a href="/insights/japanese-labelling-basics/">Japanese labelling and packaging basics</a> covers the details.</p>
+
+<h2>5. Work out your pricing</h2>
+<p>Your product passes through several hands before it reaches a Japanese customer: freight, customs, the importer, often a wholesaler, and the retailer or restaurant. Each adds cost or margin. Work backwards from a realistic Japanese retail price to check that the numbers work for you. Our guide to <a href="/insights/pricing-your-product-for-japan/">pricing your product for Japan</a> walks through it.</p>
+<p>Under the Japan-Australia Economic Partnership Agreement (JAEPA), Japan has reduced or removed tariffs on many Australian products. Check the current rate for yours, and what proof of Australian origin you need to claim it.</p>
+
+<h2>6. Prepare your materials, in Japanese if you can</h2>
+<p>Japanese buyers expect detail, and they share what you send with colleagues. Before you approach anyone, prepare:</p>
 <ul>
-<li>a one-page product sheet for each item, with ingredients, pack sizes, shelf life and storage conditions;</li>
-<li>a brief introduction to your business and where the product is made;</li>
-<li>any certifications you hold that are relevant to the buyer;</li>
-<li>suggested uses, serving ideas or the type of customer the product suits;</li>
-<li>clear contact details, and the name of the person who will follow up.</li>
+<li>a specification sheet for each product: ingredients or materials, shelf life, storage, pack sizes, and carton and pallet configuration;</li>
+<li>clear product photos and a short story about your business and where the product is made;</li>
+<li>your minimum order quantities and lead times;</li>
+<li>Japanese versions of your key materials, which make it far easier for a buyer to pass your product on internally.</li>
 </ul>
-<p>Our guide to <a href="/insights/what-japanese-importers-look-for/">what Japanese importers look for</a> covers the questions this information should answer.</p>
 
-<h2>Follow up properly</h2>
-<p>Sending the parcel is not the end of the job. Once it is delivered:</p>
-<ul>
-<li>email to confirm it has arrived safely and offer to answer any questions;</li>
-<li>allow two to three weeks for the samples to be reviewed internally;</li>
-<li>then follow up politely, asking for feedback on taste, quality, packaging and price position;</li>
-<li>be ready to send a second round, or a different variant, if they ask.</li>
-</ul>
-<p>Feedback can be indirect. A comment such as "it may be a little difficult for our customers" is worth exploring gently, rather than taking as a final answer. Our guide on <a href="/insights/why-introductions-are-not-orders/">why introductions are not orders</a> explains how this follow-up builds trust over time.</p>
+<h2>7. Find the right Japanese buyer</h2>
+<p>In most cases a Japanese company brings your product in and takes responsibility for it as importer. That might be a specialist importer, a distributor, or a retailer or restaurant group that imports directly. The best partner depends on your product, your volumes and where you want to be sold, and a good fit matters more than a big name.</p>
+<p>Our guides on <a href="/insights/find-a-japanese-importer-or-distributor/">how to find a Japanese importer or distributor</a> and <a href="/insights/what-japanese-importers-look-for/">what Japanese importers look for</a> explain how to build a shortlist and make the first approach count. Trade shows are another route: see <a href="/insights/japan-food-trade-shows/">FOODEX Japan and other trade shows</a>.</p>
 
-<h2>Keep a record</h2>
-<p>Note what you sent, to whom, when it arrived and what feedback came back. If you are speaking with several Japanese buyers, this record shows which products and messages are landing, and stops anyone being forgotten.</p>
+<h2>8. Samples, meetings and the first order</h2>
+<p>Once a buyer is interested, expect to send samples, answer detailed questions and meet more than once, ideally in person in Japan. Before sending samples, ask who should receive them and how many they need, and check courier and import rules, as food, drink and cosmetics samples can be subject to checks even in small quantities. Include a short information pack and follow up once they arrive.</p>
+<p>Japanese companies usually decide as a group, so it takes time. First orders are often small trial orders. Treat them as the start of the relationship. Our guides on <a href="/insights/why-introductions-are-not-orders/">following up with Japanese buyers</a> and <a href="/insights/japanese-business-etiquette/">Japanese business etiquette</a> help here.</p>
 
-<p>Preparing samples, information packs and follow-up in Japanese is part of how we support our clients. If a Japanese buyer has asked for samples, or you are preparing to approach buyers, <a href="/contact/">book a free call</a>.</p>`,
+<h2>9. Ship, follow up and grow</h2>
+<p>Agree clearly who arranges and pays for each part of the shipment, and work with a freight forwarder who knows Japan. Ship exactly what was agreed, on time and in perfect condition. After the first order, stay in close contact: respond quickly, share news, plan seasonal promotions and visit when you can. In Japan, reorders and new accounts usually come from a relationship built over time.</p>
+
+<h2>Where to start</h2>
+<p>Work through our <a href="/checklist/">Japan Export Readiness Checklist</a> to see where you stand. If you would like an honest view of your product's potential in Japan, and help finding and talking to the right Japanese buyers, <a href="/contact/">book a free call</a> with our team.</p>`,
   },
   {
     slug: "find-a-japanese-importer-or-distributor",
@@ -533,12 +534,12 @@ export const ARTICLES = [
   {
     slug: "japanese-labelling-basics",
     cat: "Sectors",
-    title: "Japanese labelling basics for Australian food and drink brands",
-    seoTitle: "Japanese food labelling basics for exporters",
-    description: "What a Japanese food and drink label includes: allergens, nutrition panels, health claims and how importers apply labels. A guide for Australian exporters.",
-    excerpt: "Every food and drink product sold in Japan needs a Japanese label. Here is what it includes, who applies it, and the details that catch exporters out.",
-    mins: 6,
-    updated: "2026-11-09", // FAQ section added
+    title: "Japanese labelling and packaging basics for Australian food and drink brands",
+    seoTitle: "Japanese food labelling and packaging rules",
+    description: "Japanese food labelling and packaging rules for Australian exporters: what the label includes, allergens, health claims, recycling marks, pack sizes and how importers apply labels.",
+    excerpt: "Every food and drink product sold in Japan needs a Japanese label, and packaging is judged closely. Here is what to plan for, and the details that catch exporters out.",
+    mins: 7,
+    updated: "2026-11-17", // packaging section added
     faqs: [
       ["Do I need to redesign my packaging for Japan?", "Usually not. Most Australian exporters keep their English packaging and the importer applies a Japanese sticker label. Leave a clear space for it."],
       ["Who is responsible for the Japanese label?", "The importer in Japan is responsible for the label on products they import, but they rely on complete and accurate product information from you."],
@@ -581,6 +582,16 @@ export const ARTICLES = [
 <li>leave a clear space on your packaging where a Japanese label can go without covering key information;</li>
 <li>give your importer complete, accurate product information early;</li>
 <li>tell your importer before you change any ingredient, supplier or recipe, as the label may need to change too.</li>
+</ul>
+
+<h2>Packaging for Japan</h2>
+<p>Packaging is judged closely in Japan. Buyers and shoppers often read the condition and finish of a pack as a sign of the quality inside. A few points to plan for:</p>
+<ul>
+<li><strong>Condition on arrival:</strong> dented cans, scuffed boxes or torn labels can lead to products being rejected or marked down. Pack outer cartons to survive the journey, and check how your product handles heat, humidity and long transit times.</li>
+<li><strong>Pack sizes:</strong> Japanese households and shelves are often smaller than Australian ones, and smaller or single-serve packs can suit the market better. Ask your importer what sizes sell in their channel.</li>
+<li><strong>Recycling marks:</strong> Japan has its own identification marks for plastic and paper packaging, so consumers can sort waste correctly. Your importer can confirm which marks your packaging needs, and they are often added on the Japanese label.</li>
+<li><strong>Gift and seasonal packaging:</strong> gift giving is a big part of the Japanese food and drink market, especially in summer and at the end of the year. Presentation packs can open extra sales.</li>
+<li><strong>Space for the Japanese label:</strong> as above, leave a clear area so the sticker label does not cover your branding or key information.</li>
 </ul>
 
 <h2>Dates and formats</h2>
