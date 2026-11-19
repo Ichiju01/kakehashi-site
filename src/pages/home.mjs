@@ -88,7 +88,7 @@ const body = `
 <section class="section-tight">
   <div class="wrap provenance">
     ${photo("", { img: "/assets/img/producer-vineyard", alt: "A grower's hand holding a ripe bunch of grapes on the vine", ratio: "3/2" })}
-    ${photo("", { img: "/assets/img/japan-sushi-counter", alt: "Sushi chefs at work behind the counter of a restaurant in Osaka", ratio: "3/2" })}
+    ${photo("", { img: "/assets/img/japan-wine-bar", alt: "Wine bottles lined up on the counter of a Japanese bar in Fukuoka, under paper lanterns", ratio: "3/2" })}
   </div>
 </section>
 
