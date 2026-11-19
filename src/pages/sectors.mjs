@@ -6,12 +6,16 @@ import { articleCard } from "./article.mjs";
 // Two relevant guides per sector, linked from each sector page.
 const GUIDES = {
   "food-and-produce": ["export-food-from-australia-to-japan", "japanese-labelling-basics"],
-  "wine-spirits-and-craft-beer": ["japanese-labelling-basics", "pricing-your-product-for-japan"],
+  "wine-spirits-and-craft-beer": ["selling-australian-wine-in-japan", "pricing-your-product-for-japan"],
   "seafood-meat-and-dairy": ["export-food-from-australia-to-japan", "pricing-your-product-for-japan"],
   "health-and-beauty": ["what-japanese-importers-look-for", "pricing-your-product-for-japan"],
   "fashion-and-lifestyle": ["what-japanese-importers-look-for", "japanese-business-etiquette"],
 };
 const guidesFor = (slug) => (GUIDES[slug] || []).map((g) => ARTICLES.find((a) => a.slug === g)).filter(Boolean);
+
+// Compact links to the sectors outside our main focus (home page and sectors index).
+export const otherSectors = () =>
+  `<p class="other-sectors reveal">We also work with producers in ${SECTORS.filter((s) => !s.focus).map((s) => `<a href="/sectors/${s.slug}/">${s.name.toLowerCase()}</a>`).join("; ").replace(/; ([^;]*)$/, "; and $1")}.</p>`;
 
 const FIT_CTA = { heading: "Is your product a fit for Japan?", text: "Answer a few short questions and get an honest first read.", button: "Check your Japan fit", href: "/japan-fit/" };
 
@@ -21,17 +25,22 @@ export const sectorsIndex = () =>
     active: "/sectors/",
     title: "Sectors: Australian products for Japan",
     crumb: "Sectors",
-    description: "Japan market entry for Australian food and produce, wine, spirits and craft beer, seafood, meat and dairy, health and beauty, and fashion and lifestyle brands.",
+    description: "Japan market entry for Australian wine, spirits, craft beer and premium food brands such as honey, nuts and olive oil. We also help seafood, beauty and lifestyle brands.",
     body: `
 ${pageHero({
   eyebrow: "Sectors",
   title: "Where Australian producers can win in Japan.",
-  lede: "We work with Australian food, beverage, health, beauty and lifestyle brands. Choose your sector to see what to prepare and how we would approach it.",
+  lede: "We focus on Australian wine, spirits and craft beer, and on premium food and pantry brands. Choose your sector to see what to prepare and how we would approach it.",
 })}
 <section class="section">
   <div class="wrap">
-    <div class="tiles sectors">
-      ${SECTORS.map((s) => `<a class="tile tile-link reveal" href="/sectors/${s.slug}/"><span class="tile-ic">${icon(s.ic)}</span><h2 class="h3">${s.name}</h2><p>${s.intro}</p><span class="more">Explore ${icon("arrow")}</span></a>`).join("")}
+    <div class="section-head section-head-sub reveal"><p class="eyebrow">Our focus</p></div>
+    <div class="tiles two">
+      ${SECTORS.filter((s) => s.focus).map((s) => `<a class="tile tile-link reveal" href="/sectors/${s.slug}/"><span class="tile-ic">${icon(s.ic)}</span><h2 class="h3">${s.name}</h2><p>${s.intro}</p><span class="more">Explore ${icon("arrow")}</span></a>`).join("")}
+    </div>
+    <div class="section-head section-head-sub reveal"><p class="eyebrow">Other sectors we work with</p></div>
+    <div class="tiles three">
+      ${SECTORS.filter((s) => !s.focus).map((s) => `<a class="tile tile-link reveal" href="/sectors/${s.slug}/"><span class="tile-ic">${icon(s.ic)}</span><h2 class="h3">${s.name}</h2><p>${s.intro}</p><span class="more">Explore ${icon("arrow")}</span></a>`).join("")}
     </div>
   </div>
 </section>

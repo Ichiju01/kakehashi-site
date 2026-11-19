@@ -74,4 +74,4 @@ export const form = ({ id, source, fields, submit, success, lang = "en", subject
   ${success}
 </div>`;
 
-export const PRODUCT_CATEGORIES = ["Food and produce", "Wine, spirits and craft beer", "Seafood, meat and dairy", "Health and beauty", "Fashion and lifestyle", "Other"];
+export const PRODUCT_CATEGORIES = ["Wine, spirits and craft beer", "Premium food and pantry", "Seafood, meat and dairy", "Health and beauty", "Fashion and lifestyle", "Other"];

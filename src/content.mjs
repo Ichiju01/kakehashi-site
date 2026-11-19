@@ -63,32 +63,11 @@ export const TAILORED = "Every engagement is tailored to your product and goals.
 // Sectors. `intro` is APPROVED. `prepare` and `steps` approved 2 Nov 2026.
 export const SECTORS = [
   {
-    slug: "food-and-produce",
-    seoTitle: "Export food to Japan from Australia",
-    metaDesc: "Export food to Japan from Australia with a bilingual team. We find the right Japanese buyers, prepare you in Japanese and stay on through every reorder.",
-    name: "Food and produce",
-    ic: "leaf",
-    keyword: "export food to Japan",
-    intro: "Japanese consumers and chefs value quality, safety and provenance, and Australian produce has a strong reputation for all three.",
-    prepare: [
-      "Full ingredient, allergen and nutrition information, ready to translate",
-      "Shelf-life, storage and transport details for each product",
-      "The export documentation your category needs from the Australian side",
-      "Packaging that has room for a Japanese label",
-      "A clear picture of how much you can supply, and how consistently",
-    ],
-    steps: [
-      "We look at where your products could sit in Japan, from retail to food service, and what buyers in that channel expect.",
-      "Product sheets, specifications and your provenance story, prepared in Japanese.",
-      "We approach importers who already handle your kind of product and arrange tastings and meetings.",
-      "We manage reorders, new accounts and feedback from buyers and chefs.",
-    ],
-  },
-  {
     slug: "wine-spirits-and-craft-beer",
     seoTitle: "Export wine, spirits and craft beer to Japan",
     metaDesc: "Export wine, spirits and craft beer to Japan. Bilingual support for Australian producers, from tastings and buyer meetings to allocations and reorders.",
     name: "Wine, spirits and craft beer",
+    focus: true,
     ic: "glass",
     keyword: "export wine to Japan",
     intro: "Japan has a sophisticated drinks culture and a growing appetite for premium and craft labels.",
@@ -104,6 +83,29 @@ export const SECTORS = [
       "Tasting notes, producer stories and price lists, written in Japanese.",
       "We approach specialist importers and arrange tastings and meetings in Japan.",
       "We stay close to your importer to manage allocations, reorders and new accounts.",
+    ],
+  },
+  {
+    slug: "food-and-produce",
+    seoTitle: "Export food to Japan from Australia",
+    metaDesc: "Export honey, nuts and premium food to Japan from Australia. A bilingual team that finds the right Japanese buyers and stays on through every reorder.",
+    name: "Premium food and pantry",
+    focus: true,
+    ic: "leaf",
+    keyword: "export food to Japan",
+    intro: "Honey, nuts, olive oil and other premium pantry products. Japanese shoppers and chefs value quality, safety and provenance, and Australian produce has a strong reputation for all three.",
+    prepare: [
+      "Full ingredient, allergen and nutrition information, ready to translate",
+      "Shelf-life, storage and transport details for each product",
+      "The export documentation your category needs from the Australian side",
+      "Packaging that has room for a Japanese label",
+      "A clear picture of how much you can supply, and how consistently",
+    ],
+    steps: [
+      "We look at where your products could sit in Japan, from premium supermarkets and gift buyers to food service, and what buyers in that channel expect.",
+      "Product sheets, specifications and your provenance story, prepared in Japanese.",
+      "We approach importers who already handle your kind of product and arrange tastings and meetings.",
+      "We manage reorders, new accounts and feedback from buyers and chefs.",
     ],
   },
   {
@@ -192,7 +194,7 @@ export const FAQ_GROUPS = [
     id: "working-with-us",
     title: "Working with us",
     items: [
-      ["Who do you work with?", `Australian food, beverage, seafood, health, beauty and lifestyle producers. We look for ${CLIENT_FIT.charAt(0).toLowerCase() + CLIENT_FIT.slice(1)}`],
+      ["Who do you work with?", `We focus on Australian wine, spirits and craft beer producers, and on premium food and pantry brands such as honey, nuts and olive oil. We also work with seafood, health, beauty and lifestyle producers. We look for ${CLIENT_FIT.charAt(0).toLowerCase() + CLIENT_FIT.slice(1)}`],
       ["What happens on the free call?", "It is a 20-minute video call, on Sydney time, to understand your product and goals. If Japan makes sense, we explain how we would approach it and what the next step looks like."],
       faq("Do I need to speak Japanese?"),
       faq("Do I need to travel to Japan?"),

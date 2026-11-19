@@ -4,7 +4,7 @@ import { page, pageHero, BOOK } from "../layout.mjs";
 // Result bands: Strong fit >= 14, Promising >= 9, otherwise Not yet (maximum 18).
 export const QUIZ = {
   questions: [
-    { q: "What kind of product do you make?", a: [["Food and produce", 2], ["Wine, spirits or craft beer", 2], ["Seafood, meat or dairy", 2], ["Health or beauty", 2], ["Fashion or lifestyle", 2], ["Something else", 1]] },
+    { q: "What kind of product do you make?", a: [["Wine, spirits or craft beer", 2], ["Premium food or pantry (honey, nuts, olive oil)", 2], ["Seafood, meat or dairy", 2], ["Health or beauty", 2], ["Fashion or lifestyle", 2], ["Something else", 1]] },
     { q: "Where is your product made or grown?", a: [["Made or grown in Australia", 2], ["Made in Australia with some imported ingredients", 1], ["Made outside Australia", 0]] },
     { q: "Do you export today?", a: [["Yes, to several markets", 2], ["Yes, to one market", 2], ["Not yet", 1]] },
     { q: "Have you sold to Japan before?", a: [["Yes, and we want to grow", 2], ["We have had interest, but no orders", 2], ["No", 1]] },

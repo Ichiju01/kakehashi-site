@@ -99,7 +99,7 @@ const llms = `# ${SITE.name}
 
 > ${SITE.name} (架け橋, "bridge") is a Sydney-based, bilingual Japan market entry and sales service for Australian producers. We find the right Japanese buyers (importers, distributors, retailers and restaurant groups), handle the relationship in Japanese, and stay on as the client's Japan team.
 
-- Who we help: Australian food, beverage, seafood, health, beauty and lifestyle producers.
+- Who we help: our focus is Australian wine, spirits and craft beer producers, and premium food and pantry brands (honey, nuts, olive oil). We also work with seafood, health, beauty and lifestyle producers.
 - Team: a group of Australians with native Japanese backgrounds; fluent in English and Japanese; in Japan regularly.
 - Fit: ${CLIENT_FIT}
 

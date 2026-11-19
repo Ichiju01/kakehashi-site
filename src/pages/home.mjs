@@ -2,6 +2,7 @@ import { SITE } from "../config.mjs";
 import { page, icon, ctaBand, flow, photo, stepsList, esc, BOOK } from "../layout.mjs";
 import { CHALLENGES, WHAT_WE_DO, STEPS, SECTORS, WHY } from "../content.mjs";
 import { checklistPreview } from "./checklist.mjs";
+import { otherSectors } from "./sectors.mjs";
 import { workingCard } from "./about.mjs";
 
 const body = `
@@ -10,7 +11,7 @@ const body = `
     <div class="hero-copy">
       <p class="hero-jp" lang="ja">${esc(SITE.jpTagline)}</p>
       <h1>Turn Japanese interest into Japanese orders.</h1>
-      <p class="lede">Bilingual Japan market entry and sales support for Australian producers. We find the right Japanese buyers, handle the relationship in Japanese, and stay on as your Japan team.</p>
+      <p class="lede">Bilingual Japan market entry and sales support for Australian wine, spirits and premium food producers. We find the right Japanese buyers, handle the relationship in Japanese, and stay on as your Japan team.</p>
       <div class="actions">
         <a class="btn btn-primary btn-lg" href="${BOOK}">Book a free call ${icon("arrow")}</a>
         <a class="btn btn-ghost btn-lg" href="/how-it-works/">See how it works</a>
@@ -63,12 +64,13 @@ const body = `
 <section class="section section-grey">
   <div class="wrap">
     <div class="section-head reveal">
-      <p class="eyebrow">Sectors</p>
-      <h2>Australian products Japanese buyers are looking for.</h2>
+      <p class="eyebrow">Our focus</p>
+      <h2>Australian drinks and premium food for Japan.</h2>
     </div>
-    <div class="tiles sectors">
-      ${SECTORS.map((s) => `<a class="tile tile-link reveal" href="/sectors/${s.slug}/"><span class="tile-ic">${icon(s.ic)}</span><h3>${s.name}</h3><p>${s.intro}</p><span class="more">Explore ${icon("arrow")}</span></a>`).join("")}
+    <div class="tiles two">
+      ${SECTORS.filter((s) => s.focus).map((s) => `<a class="tile tile-link reveal" href="/sectors/${s.slug}/"><span class="tile-ic">${icon(s.ic)}</span><h3>${s.name}</h3><p>${s.intro}</p><span class="more">Explore ${icon("arrow")}</span></a>`).join("")}
     </div>
+    ${otherSectors()}
   </div>
 </section>
 
@@ -115,8 +117,8 @@ export default () =>
   page({
     path: "/",
     active: "/",
-    title: "Export to Japan from Australia",
-    description: "Japan market entry and sales for Australian producers. A bilingual team that finds the right Japanese buyers, handles the relationship in Japanese and stays on.",
+    title: "Export to Japan from Australia: Wine, Spirits and Food",
+    description: "Japan market entry for Australian wine, spirits and premium food producers. A bilingual team that finds the right Japanese buyers and stays on as your Japan team.",
     body,
     alternates: { en: "/", ja: "/ja/" },
     scripts: ["/assets/forms.js"],
