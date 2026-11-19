@@ -79,7 +79,7 @@ const footer = () => `<footer class="site-footer">
     <div class="footer-top">
       <div class="footer-brand">
         ${brand("brand-light")}
-        <p>Bilingual Japan market entry and sales support for Australian producers.</p>
+        <p>Bilingual Japan market entry and sales support for Australian wine, spirits and premium food producers.</p>
         <p class="footer-jp" lang="ja">${esc(SITE.jpTagline)}</p>
       </div>
       <div class="footer-cols">
@@ -176,7 +176,7 @@ ${hreflang}
 <meta property="og:image" content="${ogImage}">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
-<meta property="og:image:alt" content="${esc(SITE.name)}: Japan market entry and sales for Australian producers">
+<meta property="og:image:alt" content="${esc(SITE.name)}: Japan market entry and sales for Australian wine, spirits and premium food producers">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="${esc(fullTitle)}">
 <meta name="twitter:description" content="${esc(description)}">

@@ -55,7 +55,7 @@ export default () =>
     active: "/services/",
     title: "Japan market entry services for Australian brands",
     crumb: "Services",
-    description: "Japan Readiness Check, Japan Market Entry and Japan Representation: bilingual services that help Australian producers win Japanese buyers and grow sales.",
+    description: "Japan Readiness Check, Japan Market Entry and Japan Representation: bilingual services that help Australian wine, spirits and premium food producers win Japanese buyers.",
     body,
     schema: [
       ...SERVICES.map((s) => ({
@@ -66,7 +66,7 @@ export default () =>
         serviceType: "Japan market entry and sales support",
         provider: { "@id": ORG_ID },
         areaServed: [{ "@type": "Country", name: "Australia" }, { "@type": "Country", name: "Japan" }],
-        audience: { "@type": "BusinessAudience", name: "Australian producers and brands" },
+        audience: { "@type": "BusinessAudience", name: "Australian wine, spirits and premium food producers" },
       })),
     ],
   });

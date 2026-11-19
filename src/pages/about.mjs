@@ -36,6 +36,7 @@ ${pageHero({
       <p class="eyebrow">Who you work with</p>
       <h2>A team at home in Australia and Japan.</h2>
       <p>We understand how Australian producers work and what Japanese buyers expect, because we have lived and worked in both cultures.</p>
+      <p>Our focus is Australian <a href="/sectors/wine-spirits-and-craft-beer/">wine, spirits and craft beer</a>, and <a href="/sectors/food-and-produce/">premium food and pantry</a> products such as honey, nuts and olive oil.</p>
       <ul class="point-list">${POINTS.map(([ic, t]) => `<li><span class="tile-ic">${icon(ic)}</span><span>${t}</span></li>`).join("")}</ul>
     </div>
     <div class="reveal">${workingCard()}</div>
@@ -73,6 +74,6 @@ export default () =>
     active: "/about/",
     title: "About us: a bilingual Australia and Japan team",
     crumb: "About",
-    description: `${SITE.name} is a Sydney-based group of Australians with native Japanese backgrounds, helping Australian producers enter the Japanese market.`,
+    description: `${SITE.name} is a Sydney-based group of Australians with native Japanese backgrounds, helping Australian wine, spirits and premium food producers enter the Japanese market.`,
     body,
   });

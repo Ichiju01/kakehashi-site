@@ -405,7 +405,7 @@ export const ARTICLES = [
 <p>Ship exactly what was agreed, on time and in perfect condition. After the first order, stay in close contact: share news, respond quickly, plan seasonal promotions, and visit when you can. In Japan, reorders and new accounts usually come from a relationship built over time. Plan on 6 to 18 months to build a working channel.</p>
 
 <h2>Where to start</h2>
-<p>Work through our <a href="/checklist/">Japan Export Readiness Checklist</a> to see where you stand. If you would like an honest view of your product's potential in Japan, <a href="/contact/">book a free call</a> with our team.</p>`,
+<p>Work through our <a href="/checklist/">Japan Export Readiness Checklist</a> to see where you stand. If you would like an honest view of your product's potential in Japan, see our <a href="/sectors/food-and-produce/">premium food and pantry</a> page or <a href="/contact/">book a free call</a> with our team.</p>`,
   },
   {
     slug: "what-japanese-importers-look-for",
