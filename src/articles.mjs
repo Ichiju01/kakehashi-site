@@ -5,6 +5,73 @@ export const PUBLISHED = "2026-11-02"; // default date; newer articles set their
 
 export const ARTICLES = [
   {
+    slug: "selling-australian-honey-and-olive-oil-in-japan",
+    cat: "Sectors",
+    date: "2026-11-23",
+    title: "Selling Australian honey and olive oil in Japan",
+    seoTitle: "Selling Australian honey and olive oil in Japan",
+    description: "What Australian honey and olive oil producers need to know about Japan: labelling, grading terms, pack sizes, gifting, channels and finding the right importer.",
+    excerpt: "Honey and olive oil are pantry staples in Japan, and shoppers pay attention to origin, purity and presentation. Here is how Australian producers can position a product and prepare for buyers.",
+    mins: 7,
+    body: `
+<p>Honey and olive oil are both familiar to Japanese shoppers, and both are bought with an eye on origin, purity and presentation. For small and mid-sized Australian producers, that can be an opening: a product with a clear story, from a named region or even a single property, has room to stand out. But Japan is also a crowded, well-informed market, with established imported brands on every shelf. This guide covers what to think about before you approach Japanese buyers.</p>
+<p>It is general information. Rules and standards change, so check current requirements with your importer and the relevant authorities.</p>
+
+<h2>Why a clear story matters more than volume</h2>
+<p>Most Japanese consumers buying honey or olive oil are not buying the cheapest option. They compare origin, how the product was made, and whether the maker can explain it. Buyers at department stores, specialty grocers and online retailers want to see things such as:</p>
+<ul>
+<li>where the product comes from, down to region, and ideally the producer;</li>
+<li>what makes it different: the floral source of a honey, the olive varieties and harvest timing of an oil;</li>
+<li>how it tastes and how it is used, written for a Japanese cook rather than translated from an Australian label.</li>
+</ul>
+<p>Our guide on <a href="/insights/what-japanese-importers-look-for/">what Japanese importers look for</a> explains how buyers weigh these points before they say yes.</p>
+
+<h2>Honey: purity, floral source and caution with claims</h2>
+<p>Honey is sold in Japan as a food, so food safety rules apply: permitted ingredients, residue limits and an import notification filed by the importer for each shipment. A few points are worth raising early.</p>
+<ul>
+<li><strong>Single-origin and single-floral honeys</strong> suit buyers who want to tell a story. Keep your records on floral source and harvest so you can back up what you say.</li>
+<li><strong>Health claims are sensitive.</strong> Japan restricts health and medicinal claims on food. Language that works on an Australian label, such as a suggestion that a honey treats or prevents a condition, may not be acceptable. Ask your importer to review your claims before you print anything for Japan.</li>
+<li><strong>Warnings for infants</strong> are commonly shown on honey sold in Japan. Your importer will advise on the wording.</li>
+<li><strong>Export requirements</strong> on the Australian side depend on the product. Check the current position with the Department of Agriculture, Fisheries and Forestry before your first shipment.</li>
+</ul>
+
+<h2>Olive oil: grades, freshness and how it is used</h2>
+<p>Japan is a well-informed olive oil market, and consumers are used to oils from Italy, Spain and elsewhere. Australian oils often compete on freshness, a recent harvest and a distinctive flavour profile, backed by a named grower and region.</p>
+<ul>
+<li><strong>Grade terms:</strong> terms such as extra virgin are used for specific quality grades. Japan has its own standards and industry practice around how oils are described, so check with your importer how your grade will be shown on a Japanese label.</li>
+<li><strong>Harvest date and storage:</strong> a clear harvest date helps a buyer judge freshness, and light and heat damage quality. Tell your importer how the oil should be stored and shipped.</li>
+<li><strong>Use:</strong> show how the oil works with Japanese food as well as Mediterranean dishes. Pairings with rice, vegetables, tofu and seafood give shoppers an easy reason to try it.</li>
+</ul>
+
+<h2>Packaging, sizes and gifting</h2>
+<p>Presentation counts. Japanese shoppers expect packaging to be clean, undamaged and well made, and a leaking cap or dented tin can end a relationship before it starts. Smaller bottles and jars often suit Japanese kitchens and gifting better than large formats. Gift sets and seasonal packs can be a strong way to place a premium product, so ask your buyer how they handle the gift seasons.</p>
+<p>Most products need a Japanese label, usually applied by the importer as a sticker. Leave space on your packaging and read our guide to <a href="/insights/japanese-labelling-basics/">Japanese labelling and packaging basics</a>.</p>
+
+<h2>Channels for honey and olive oil</h2>
+<ul>
+<li><strong>Department stores:</strong> food halls suit premium, giftable products with a strong story.</li>
+<li><strong>Specialty grocers and delicatessens:</strong> a good fit for small producers with a distinctive product and staff who can explain it.</li>
+<li><strong>Restaurants and cafes:</strong> chefs may use olive oil and honey in the kitchen, and a product placed in good restaurants builds credibility.</li>
+<li><strong>Online retailers:</strong> useful for reaching enthusiasts, where clear photos, descriptions in Japanese and reviews matter.</li>
+<li><strong>Supermarkets:</strong> large volume but price competitive, and usually supplied by larger importers.</li>
+</ul>
+<p>Pick the channel first. It decides which kind of importer you should approach.</p>
+
+<h2>Pricing so the numbers work</h2>
+<p>By the time a jar of honey or a bottle of oil reaches a Japanese shelf it has carried freight, customs, the importer's costs and margin, often a wholesaler, and the retailer. Work backwards from a realistic Japanese retail price to check that your export price is viable. Our guide to <a href="/insights/pricing-your-product-for-japan/">pricing your product for Japan</a> walks through it, and the Japan-Australia Economic Partnership Agreement may reduce the tariff on some products, so ask your importer to confirm the current rate and the origin documents needed.</p>
+
+<h2>Find a buyer who fits</h2>
+<p>A specialist importer that already sells premium pantry products to department stores or good grocers is usually a better partner than a large company with a long list. Look at who imports comparable honey and oils in the channel you want, and read our guide on <a href="/insights/find-a-japanese-importer-or-distributor/">how to find a Japanese importer or distributor</a>.</p>
+
+<p>We help Australian food producers find the right Japanese buyers and handle the conversation in Japanese. See our <a href="/sectors/food-and-produce/">food and produce</a> page, work through the <a href="/checklist/">Japan Export Readiness Checklist</a>, or <a href="/contact/">book a free call</a>.</p>`,
+    faqs: [
+      ["Can I sell Australian honey in Japan?", "Yes, honey is sold in Japan as a food, and imported honey is common. Your importer files an import notification for each shipment, and your label and claims need to meet Japanese food rules. Check current requirements with your importer."],
+      ["Do I need a Japanese label on my olive oil?", "Yes. Food products sold in Japan need a Japanese label, usually a sticker applied by the importer. It covers details such as the product name, ingredients, content, dates, storage, origin and the importer's details."],
+      ["Can I make health claims about my honey in Japan?", "Be very careful. Japan restricts health and medicinal claims on food, and wording used in Australia may not be acceptable. Ask your Japanese importer to review every claim before you print packaging for Japan."],
+      ["What size should I offer for the Japanese market?", "Smaller bottles and jars often suit Japanese kitchens and gifting better than large formats, but it depends on the channel. Ask your importer or buyer which sizes sell in the shops you are aiming for."],
+    ],
+  },
+  {
     slug: "how-to-export-to-japan-from-australia",
     cat: "Market entry",
     date: "2026-11-17",
